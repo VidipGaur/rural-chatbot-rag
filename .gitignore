@@ -1,0 +1,27 @@
+# virtual environment
+venv/
+.env/
+
+# caches
+__pycache__/
+hf_cache/
+pip_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# compiled/binary files
+*.faiss
+*.bin
+*.pt
+*.pkl
+*.h5
+
+# model weights
+huggingface/
+transformers/
+
+# system files
+.DS_Store
+Thumbs.db
+
